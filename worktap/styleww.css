@@ -123,21 +123,21 @@ ul{
     margin-bottom: 50px;
     max-width: 450px;
 }
-.form{
+form{
     display: flex;
 
 }
-.input[type="text"]{
+input[type="text"]{
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #656084;
     background: #F2F0FE;
-    border-radius: 50%;
+    border-radius: 50px;
     border: 1px;
     padding: 20px 0;
 }
-.input[type="submit"]{
+input[type="submit"]{
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
