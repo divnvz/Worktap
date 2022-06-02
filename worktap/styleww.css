@@ -376,13 +376,16 @@ margin-top: 20px;
     width: 380px;
     height: 41px; 
     padding-top: 30px;
+    margin:0 auto;
+}
+.Workers__wrapper{
+    margin-bottom:30px;
 }
 .Workers__wrap{
     width: 420px;
     height: 261px;
     border-radius: 20px;
     border: 1px solid #F2F0FE;
-    margin-bottom: 30px;
 }
 .Workers__wrapper__title{
     display: flex;
@@ -431,6 +434,10 @@ margin-top: 20px;
     transition: 0.3s;
 }
 .Workers__wrapper:hover{
+    box-shadow: 0 16px 16px rgba(34, 34, 34, 0.04);
+    transform: translateY(-5px);
+}
+.Workers__view:hover{
     box-shadow: 0 16px 16px rgba(34, 34, 34, 0.04);
     transform: translateY(-5px);
 }
