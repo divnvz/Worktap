@@ -592,9 +592,13 @@ border-radius: 20px;
     margin-left: 400px;
    padding-bottom: 100px;
 }
-.icons{:
-    fill:red;
-}
-.icons:hover path{
+
+.instagram:hover circle{
     fill:rgb(79, 72, 164);
-  }
+}
+.instagram:hover path{
+    fill:#F7F6FF;
+}
+svg:hover path{
+    fill:rgb(79, 72, 164);
+}
